@@ -11,7 +11,7 @@ int main()
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     
     for(int i = 1 ;i <=10; i++){
-        cout<<"2 x "<< i << " = " << (i*n)<<endl;
+        cout<<n<<" x "<< i << " = " << (i*n)<<endl;
     }
     
     return 0;
