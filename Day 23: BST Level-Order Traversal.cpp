@@ -1,4 +1,4 @@
-	void levelOrder(Node * root){
+void levelOrder(Node * root){
     queue<Node *> que;
     Node * c;
     
@@ -17,6 +17,4 @@
             que.push(c->right);
         }
     }
-  	
-  
-	}
+}
